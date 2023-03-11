@@ -1,10 +1,9 @@
 let names = [
   "Sant Agata",
-  "Castello Orsino",
+  "Castello Ursino",
   "Piazza del elefante",
   "Teatro Romano",
   "Via dei Crociferi",
-  "Via del Barocco",
   "Piazza duomo",
   "Via Etnea",
   "Piazza Stesicoro",
@@ -53,7 +52,7 @@ function displayNames(value) {
   {
       a=1;
   }
-  if(nome=="Castello Orsino")
+  if(nome=="Castello Ursino")
   {
       a=2;
   }
@@ -65,29 +64,25 @@ function displayNames(value) {
   {
       a=4;
   }
-    if(nome=="Sant Via dei Crociferi")
-      {
-              a=5;
-      }
-  if(nome=="Via del Barocco")
+  if(nome=="Sant Via dei Crociferi")
   {
-      a=6;
+      a=5;
   }
   if(nome=="Piazza duomo")
   {
-      a=7;
+      a=6;
   }
   if(nome=="Via Etnea")
   {
-      a=8;
+      a=7;
   }
   if(nome=="Piazza Stesicoro")
   {
-      a=9;
+      a=8;
   }
   if(nome=="Anfiteatro Romano")
   {
-              a=10;
+      a=9;
   }
   removeElements();
 
@@ -103,43 +98,39 @@ let urle="";
 function search() {
   switch (a) {
       case 1:
-          window.location ="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch";
+          window.location ="https://basilelol.github.io/sitoCatania/Attrazioni/agata.html";
   
         break;
-        case 2:
-          window.location ="https://stackoverflow.com/questions/4851657/call-break-in-nested-if-statements";
+      case 2:
+          window.location ="https://basilelol.github.io/sitoCatania/Attrazioni/orsino.html";
   
         break;
-        case 3:
-          window.location ="https://www.google.com";
+      case 3:
+          window.location ="https://basilelol.github.io/sitoCatania/Attrazioni/Elefante.html";
   
         break;
-        case 4:
-          window.location ="https://www.freecodecamp.org/news/javascript-string-comparison-how-to-compare-strings-in-js/";
+      case 4:
+          window.location ="https://basilelol.github.io/sitoCatania/Attrazioni/Teatro.html";
   
         break;
-        case 5:
-          window.location ="https://it.wikipedia.org/wiki/Catania";
+      case 5:
+          window.location ="https://basilelol.github.io/sitoCatania/Attrazioni/Crociferi.html";
   
         break;
-        case 6:
-          window.location ="https://it.wikipedia.org/wiki/Pagina_principale";
+      case 6:
+          window.location ="https://basilelol.github.io/sitoCatania/Attrazioni/Duomo.html";
   
         break;
-        case 7:
-          window.location ="https://it.wikipedia.org/wiki/Open_13_Provence_2020_-_Singolare";
+      case 7:
+          window.location ="https://basilelol.github.io/sitoCatania/Attrazioni/Etnea.html";
   
         break;
-        case 8:
-          window.location ="https://it.wikipedia.org/wiki/Denis_Shapovalov";
+      case 8:
+          window.location ="https://basilelol.github.io/sitoCatania/Attrazioni/Stesicoro.html";
   
         break;
-        case 9:
-          window.location ="https://it.wikipedia.org/wiki/Aiuto:Aiuto";
-  
-        break;
-        case 10:
-          window.location ="https://it.wikipedia.org/w/index.php?title=Speciale:Libro&bookcmd=book_creator&referer=Aiuto%3AAiuto";
+      case 9:
+          window.location ="https://basilelol.github.io/sitoCatania/Attrazioni/Anfiteatro.html";
   
         break;
       }
