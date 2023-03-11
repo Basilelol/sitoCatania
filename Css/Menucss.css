@@ -1,0 +1,51 @@
+
+/* Screen Sizes 500px and Up */
+@media (max-width: 355px) {
+  .navbar {
+    display: none;
+  
+    width: 100%;
+    padding:0px 0px;
+  }
+
+  .material-icons{
+    visibility: hidden;
+  }
+  .navbar-links li.navbar-dropdown {
+    position: relative;
+    margin-left: -20%;
+  }
+}
+
+/* Screen Sizes 700px and Up */
+@media (min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
+}
+@media screen and (max-width:960px) {
+  .footer-container{
+    max-width: 600px;
+  }
+  .right-col{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+ 
+  .left-col{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}

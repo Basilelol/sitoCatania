@@ -1,0 +1,23 @@
+.history{
+  text-align: center;
+  padding-top: 40px;
+  height: 1000px;
+  background: rgb(190,183,172);
+  background: linear-gradient(90deg, rgba(190,183,172,1) 29%, rgba(233,216,182,1) 74%);
+  z-index: -2;
+  position: relative;
+}   
+
+.img{
+  margin-top: 5vw;
+  margin-right: 7vw;
+  margin-left: 5vw;
+  float: left ;
+}
+
+.text{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  border: 1px black solid;
+}

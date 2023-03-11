@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Css/home.css">
+  <link rel="stylesheet" href="../Css/footer.css">
+  <link rel="stylesheet" href="../Css/navbar.css">
+  <link rel="stylesheet" href="../Css/arancino.css">
+  <link rel="stylesheet" href="../Css/ElencoAttrazioni.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <title>Home</title>
+</head>
+<body>
+    
+  <nav class="navbar">
+    <a href="#" class="navbar-logo"><i class="material-icons"><img src="../Css/immagini/logo.png" alt=""></i></a>
+    <ul class="navbar-links">
+      <li class="navbar-dropdown">
+        <a class="active"href="#">Home</a>
+      </li>
+      <li class="navbar-dropdown">
+        <a class="secondary" href="#">Attrazioni</a>
+        <div class="dropdown">
+          <a href="../Attrazioni/agata.html">Sant'Agata</a>
+          <a href="../Attrazioni/Anfiteatro.html">Anfiteatro romano</a>
+          <a href="../Attrazioni/Crociferi.html">Via dei Crociferi</a>
+          <a href="../Attrazioni/Duomo.html">Piazza Duomo</a>
+          <a href="../Attrazioni/Elefante.html">Piazza Elefante</a>
+          <a href="../Attrazioni/Etnea.html">Via Etnea</a>
+          <a href="../Attrazioni/orsino.html">Castello Orsino</a>
+          <a href="../Attrazioni/Stesicoro.html">Piazza Stesicoro</a>
+          <a href="../Attrazioni/Teatro.html">Teatro romano</a>
+        </div>
+      </li>
+      <li class="navbar-dropdown">
+        <a class="third" href="#">Cibo</a>
+        <div class="dropdown">
+          <a href="arancino.html">Arancino</a>
+          <a href="cassatine.html">Cassatine</a>
+          <a href="cannolo.html">Cannolo</a>
+          <a href="arancino.html">Arancino</a>
+          <a href="granita.html">Granita</a>
+          <a href="olivette.html">Olivette Sant'Agata</a>
+          <a href="spaghetti.html">Spaghetti alla carrettiera</a>
+        </div>
+      </li>
+    </ul>   
+  </nav>
+
+<div id="uno">
+    <p id="demotext">Cassatine</p>
+</div>
+
+<hr>
+
+<div>
+    <div class="flex-container">
+    <div class="divflex2"><img src="../img/cassatine.jpg" id="foto" onclick="this.width=596;this.height=435;" ondblclick="this.width=149;this.height=109;"></div>
+    <!-- <div class="divflex2"><img src="../img/arancino2.jpg" id="foto"></div>  -->
+  </div>
+</div>
+
+<div>
+    <div class="flex-container">
+    <div class="divflex1">
+      <div id="spiegazione">
+        <h1>Storia</h1>
+        <p>L'arancino è una specialità della cucina siciliana. Come tale, è stata ufficialmente riconosciuta e inserita nella lista dei prodotti agroalimentari tradizionali italiani del Ministero delle politiche agricole alimentari e forestali con il nome di "arancini di riso"</p>
+      </div>
+    </div>
+    <div class="divflex1">
+      <div id="spiegazione">
+        <h1>INGREDIENTI</h1>
+        <ol id="ricetta">
+          <li>1) Riso</li>
+          <li>2) Raghù</li>
+          <li>3) piselli</li>
+          <li>4) Caciocavallo</li>
+        </ol>
+      </div>
+    </div> 
+  </div>
+</div>
+
+<div id="barra">
+  <div class="pagination">
+      <a href="../ElencoAttrazioni.html">&laquo;</a>
+      <a href="../home.html">Home</a>
+      <a href="../ElencoAttrazioni.html">Attrazioni</a>
+      <a href="arancino.html" class="active">Cibo</a>
+      <a href="../home.html">&raquo;</a>
+  </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+      <div class="left-col">
+        <img src="logo.png" alt="" class="logo">
+        <div class="social-media">
+          <a href="https://www.facebook.com/CATANIAFANPAGE/?locale=it_IT"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/ComunediCatania"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/comunecatania/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@webtvunict"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="rights-text">© 2023 Creato da <b>Gruppo Catania</b>  All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

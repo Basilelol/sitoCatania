@@ -1,0 +1,89 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+  
+.divo {
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid black;
+    padding: 20px;
+    height: 120%;
+}
+
+#foto
+{
+    margin-top: 30px;
+    width: 100%;
+    height: 70%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#due
+{
+    font-family: 'Lora', sans-serif;
+    font-style: normal;
+    font-size: 50%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    color: #000000;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #bcbcbc, 2px 2px 0 #9c9c9c;
+    background: #FFFFFF;
+}
+
+
+#nove{
+    background-color: rgb(205, 214, 255);
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.pagination {
+    display: inline-block;
+    background-color: #e9e7e7;
+    padding: 10px;
+}
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+  
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+
+#barra
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 2vw;
+}
+
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
